@@ -3,4 +3,8 @@ project(arp_ping)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(arp_ping src/main.cpp src/arp_sender.cpp)
+add_executable(arp_ping
+    src/main.cpp
+    src/arp_sender.cpp
+    src/arp_receiver.cpp
+)
